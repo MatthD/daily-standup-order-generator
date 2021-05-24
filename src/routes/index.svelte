@@ -1,5 +1,5 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	import daily from 'images/scrum-daily';
 </script>
 
 <style>
@@ -15,14 +15,8 @@
 		margin: 0 0 0.5em 0;
 	}
 
-	figure {
-		margin: 0 0 1em 0;
-	}
-
 	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
+		width: 200px;
 	}
 
 	p {
@@ -37,14 +31,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Daily standup order (random) generator 🎉</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Daily standup order generator!</h1>
 
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
+<div>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+</div>
+<img alt="Daily scrum" src="{daily}" />
+
+<p>You can use this app for free in <strong>generate</strong> or just fork (and like ?😍) on <a href="https://github.com/MatthD/daily-standup-order-generator" target="_blank">github</a></p>
