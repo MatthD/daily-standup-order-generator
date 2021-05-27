@@ -1,5 +1,5 @@
 <script>
-	import daily from 'images/scrum-daily';
+	import daily from 'images/scrum-daily.jpg';
 </script>
 
 <style>
@@ -38,7 +38,7 @@
 
 <div>
 
+<img alt="Daily scrum" src="{daily}" height=150 width=300 />
 </div>
-<img alt="Daily scrum" src="{daily}" />
 
 <p>You can use this app for free in <strong>generate</strong> or just fork (and like ?😍) on <a href="https://github.com/MatthD/daily-standup-order-generator" target="_blank">github</a></p>
