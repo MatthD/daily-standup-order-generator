@@ -14,9 +14,14 @@
 		font-weight: 700;
 		margin: 0 0 0.5em 0;
 	}
+	.scrum-container{
+		width: 400px;
+		height: 400px;
+		border-radius: 100%;
+	}
 
 	img {
-		width: 200px;
+		/*width: 200px;*/
 	}
 
 	p {
@@ -36,9 +41,9 @@
 
 <h1>Daily standup order generator!</h1>
 
-<div>
+<div class="scrum-container">
 
-<img alt="Daily scrum" src="{daily}" height=150 width=300 />
+<img alt="Daily scrum" src="{daily}"  />
 </div>
 
 <p>You can use this app for free in <strong>generate</strong> or just fork (and like ?😍) on <a href="https://github.com/MatthD/daily-standup-order-generator" target="_blank">github</a></p>
