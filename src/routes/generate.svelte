@@ -38,7 +38,7 @@
     <div class="timer">
       <Countdown />
     </div>
-    <div class="columns">
+    <div class="columns columns-contains">
       {#each shuffledmembersName as name, index}
         <div class="column column-member">
           <div class="card card-member">
@@ -111,5 +111,8 @@
   .nextMember {
     font-size: 70px;
     align-self: center;
+  }
+  .columns-contains{
+    flex-wrap: wrap;
   }
 </style>
