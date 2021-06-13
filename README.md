@@ -1,6 +1,6 @@
 # daily-standup-generator
 
-- Jut because I am a scrum master I want a random order for my remote team daily standup 🤣
+- Just because I am a scrum master I want a random order for my remote team daily standup 🤣
 
 ## Usage 
 
